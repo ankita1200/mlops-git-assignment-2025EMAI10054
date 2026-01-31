@@ -14,3 +14,5 @@ index	Experiment ID	Model Type	Hyperparameters	Preprocessing Steps	Feature Selec
 9	EXP-10	Gaussian Naive Bayes	var_smoothing=1e-05	None	All features	80/20	0.9855	0.9963	0.9851
 10	EXP-11	Gaussian Naive Bayes	Default (var_smoothing=1e-09)	StandardScaler	All features	70/30	0.9153	0.9984	0.84
 11	EXP-12	Gaussian Naive Bayes	var_smoothing=1e-07	StandardScaler	Numerical features only	80/20	0.9855	0.9972	0.9851
+12      EXP-11  Gaussian Naive Bayes    Default (var_smoothing=1e-09)   StandardScaler  All features    70/30   0.9153  0.9984  0.84
+13      EXP-12  Gaussian Naive Bayes    var_smoothing=1e-07     StandardScaler  Numerical features only 80/20   0.9855  0.9972  0.9851
